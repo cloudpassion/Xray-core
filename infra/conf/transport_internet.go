@@ -1260,7 +1260,7 @@ func (c *Dns) Build() (proto.Message, error) {
 	config := &dns.Config{}
 	config.Domain = "www.baidu.com"
 	
-	errors.LogDebug(context.Background(), "dbg domain: ", c.Domain)
+	//errors.LogDebug(context.Background(), "dbg domain: ", c.Domain)
 
 	if len(c.Domain) > 0 {
 		config.Domain = c.Domain
