@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/apernet/quic-go"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/net"
 )
 
 type interConn struct {
