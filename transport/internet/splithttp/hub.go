@@ -15,7 +15,7 @@ import (
 
 	"github.com/apernet/quic-go"
 	"github.com/apernet/quic-go/http3"
-	goreality "github.com/xtls/reality"
+	goreality "github.com/cloudpassion/reality"
 	"github.com/cloudpassion/xray-core/common"
 	"github.com/cloudpassion/xray-core/common/errors"
 	"github.com/cloudpassion/xray-core/common/net"

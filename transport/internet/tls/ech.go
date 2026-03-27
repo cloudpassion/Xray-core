@@ -23,8 +23,8 @@ import (
 	"golang.org/x/net/http2"
 
 	"github.com/miekg/dns"
-	"github.com/xtls/reality"
-	"github.com/xtls/reality/hpke"
+	"github.com/cloudpassion/reality"
+	"github.com/cloudpassion/reality/hpke"
 	"github.com/cloudpassion/xray-core/common/errors"
 	"github.com/cloudpassion/xray-core/common/net"
 	"github.com/cloudpassion/xray-core/common/utils"

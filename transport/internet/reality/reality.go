@@ -23,7 +23,7 @@ import (
 
 	"github.com/cloudflare/circl/sign/mldsa/mldsa65"
 	utls "github.com/refraction-networking/utls"
-	"github.com/xtls/reality"
+	"github.com/cloudpassion/reality"
 	"github.com/cloudpassion/xray-core/common/crypto"
 	"github.com/cloudpassion/xray-core/common/errors"
 	"github.com/cloudpassion/xray-core/common/net"

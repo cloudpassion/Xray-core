@@ -5,7 +5,7 @@ import (
 	"encoding/pem"
 	"os"
 
-	"github.com/xtls/reality/hpke"
+	"github.com/cloudpassion/reality/hpke"
 	"github.com/cloudpassion/xray-core/common"
 	"github.com/cloudpassion/xray-core/main/commands/base"
 	"github.com/cloudpassion/xray-core/transport/internet/tls"

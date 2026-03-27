@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/cloudflare/circl/sign/mldsa/mldsa65"
-	"github.com/xtls/reality"
+	"github.com/cloudpassion/reality"
 	"github.com/cloudpassion/xray-core/common/errors"
 	"github.com/cloudpassion/xray-core/transport/internet"
 )
