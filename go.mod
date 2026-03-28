@@ -1,6 +1,6 @@
 module github.com/cloudpassion/xray-core
 
-go 1.25.7
+go 1.26.1
 
 require (
 	github.com/apernet/quic-go v0.57.2-0.20260111184307-eec823306178
