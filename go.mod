@@ -5,6 +5,7 @@ go 1.25.7
 require (
 	github.com/apernet/quic-go v0.57.2-0.20260111184307-eec823306178
 	github.com/cloudflare/circl v1.6.3
+	github.com/cloudpassion/reality v0.0.0-20260328000104-1f30a7e7ea8e
 	github.com/ghodss/yaml v1.0.1-0.20220118164431-d8423dcdf344
 	github.com/golang/mock v1.7.0-rc.1
 	github.com/google/go-cmp v0.7.0
@@ -37,7 +38,6 @@ require (
 	github.com/andybalholm/brotli v1.0.6 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/cloudpassion/reality v0.0.0-20260328000104-1f30a7e7ea8e // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/eko/gocache/lib/v4 v4.1.6 // indirect
