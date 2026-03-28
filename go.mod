@@ -53,4 +53,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/xtls/reality v0.0.0-20251014195629-e4eec4520535 => ../REALITY-xcore
+replace github.com/xtls/reality v0.0.0-20251014195629-e4eec4520535 => ../REALITY
