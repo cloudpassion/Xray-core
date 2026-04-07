@@ -58,5 +58,3 @@ require (
 )
 
 replace github.com/cloudpassion/reality => ../REALITY
-
-replace github.com/cloudpassion/reality v0.0.0-20260407095639-71a0afcf658d => ../REALITY
