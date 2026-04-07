@@ -1,9 +1,9 @@
 package routing
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/features"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/serial"
+	"github.com/cloudpassion/xray-core/features"
 )
 
 // Router is a feature to choose an outbound tag for the given request.

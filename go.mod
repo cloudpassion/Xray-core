@@ -1,4 +1,4 @@
-module github.com/xtls/xray-core
+module github.com/cloudpassion/xray-core
 
 go 1.25.7
 
@@ -18,7 +18,7 @@ require (
 	github.com/sagernet/sing-shadowsocks v0.2.7
 	github.com/stretchr/testify v1.11.1
 	github.com/vishvananda/netlink v1.3.1
-	github.com/xtls/reality v0.0.0-20251014195629-e4eec4520535
+	github.com/cloudpassion/reality main
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba
 	golang.org/x/crypto v0.47.0
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
@@ -52,3 +52,6 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+
+replace github.com/cloudpassion/reality => ../REALITY

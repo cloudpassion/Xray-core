@@ -9,16 +9,16 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/serial"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/cloudpassion/xray-core/app/dispatcher"
+	"github.com/cloudpassion/xray-core/app/proxyman"
+	"github.com/cloudpassion/xray-core/app/router"
+	"github.com/cloudpassion/xray-core/app/stats"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/platform"
+	"github.com/cloudpassion/xray-core/common/serial"
+	core "github.com/cloudpassion/xray-core/core"
+	"github.com/cloudpassion/xray-core/transport/internet"
 )
 
 var (

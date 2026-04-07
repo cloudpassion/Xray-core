@@ -7,7 +7,7 @@ import (
 	"io"
 
 	"github.com/apernet/quic-go/quicvarint"
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/errors"
 )
 
 const (

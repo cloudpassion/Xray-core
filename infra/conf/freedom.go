@@ -6,12 +6,12 @@ import (
 	"net"
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
-	v2net "github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/proxy/freedom"
+	"github.com/cloudpassion/xray-core/common/errors"
+	v2net "github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/protocol"
+	"github.com/cloudpassion/xray-core/proxy/freedom"
 	"google.golang.org/protobuf/proto"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/cloudpassion/xray-core/transport/internet"
 )
 
 type FreedomConfig struct {

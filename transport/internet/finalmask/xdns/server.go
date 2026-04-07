@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/errors"
 )
 
 const (

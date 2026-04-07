@@ -2,8 +2,8 @@ package internet
 
 import (
 	"context"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
 	"time"
 )
 

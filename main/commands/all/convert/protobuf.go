@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/xtls/xray-core/common/cmdarg"
-	creflect "github.com/xtls/xray-core/common/reflect"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/cloudpassion/xray-core/common/cmdarg"
+	creflect "github.com/cloudpassion/xray-core/common/reflect"
+	"github.com/cloudpassion/xray-core/core"
+	"github.com/cloudpassion/xray-core/main/commands/base"
 
 	"google.golang.org/protobuf/proto"
 )

@@ -2,8 +2,8 @@ package outbound
 
 import (
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/protocol"
 )
 
 // As a stub command consumer.
