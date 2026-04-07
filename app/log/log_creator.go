@@ -3,9 +3,9 @@ package log
 import (
 	"sync"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/log"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/log"
 )
 
 type HandlerCreatorOptions struct {

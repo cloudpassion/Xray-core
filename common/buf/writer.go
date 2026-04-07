@@ -5,9 +5,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/features/stats"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/features/stats"
 )
 
 // BufferToBytesWriter is a Writer that writes alloc.Buffer into underlying writer.

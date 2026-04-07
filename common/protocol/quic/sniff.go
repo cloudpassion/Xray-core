@@ -8,11 +8,11 @@ import (
 	"io"
 
 	"github.com/apernet/quic-go/quicvarint"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/buf"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/protocol"
-	ptls "github.com/cloudpassion/Xray-core/common/protocol/tls"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/protocol"
+	ptls "github.com/cloudpassion/xray-core/common/protocol/tls"
 	"golang.org/x/crypto/hkdf"
 )
 

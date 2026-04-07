@@ -3,9 +3,9 @@ package websocket
 import (
 	"net/http"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/utils"
-	"github.com/cloudpassion/Xray-core/transport/internet"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/utils"
+	"github.com/cloudpassion/xray-core/transport/internet"
 )
 
 func (c *Config) GetNormalizedPath() string {

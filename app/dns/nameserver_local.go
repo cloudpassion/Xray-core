@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/log"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/features/dns"
-	"github.com/cloudpassion/Xray-core/features/dns/localdns"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/log"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/features/dns"
+	"github.com/cloudpassion/xray-core/features/dns/localdns"
 )
 
 // LocalNameServer is an wrapper over local DNS feature.

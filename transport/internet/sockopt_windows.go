@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/errors"
 )
 
 const (

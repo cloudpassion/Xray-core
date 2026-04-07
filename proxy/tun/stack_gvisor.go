@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
 	"gvisor.dev/gvisor/pkg/buffer"
 	"gvisor.dev/gvisor/pkg/tcpip"
 	"gvisor.dev/gvisor/pkg/tcpip/adapters/gonet"

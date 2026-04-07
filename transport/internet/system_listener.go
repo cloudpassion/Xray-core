@@ -11,8 +11,8 @@ import (
 
 	"github.com/pires/go-proxyproto"
 	"github.com/sagernet/sing/common/control"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
 )
 
 var effectiveListener = DefaultListener{}

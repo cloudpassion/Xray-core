@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/buf"
-	"github.com/cloudpassion/Xray-core/common/net"
-	. "github.com/cloudpassion/Xray-core/transport/internet/headers/http"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/xray-core/common/net"
+	. "github.com/cloudpassion/xray-core/transport/internet/headers/http"
 )
 
 func TestReaderWriter(t *testing.T) {

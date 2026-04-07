@@ -9,9 +9,9 @@ import (
 	sync "sync"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/crypto"
-	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/crypto"
+	"github.com/cloudpassion/xray-core/common/errors"
 )
 
 type aes128gcmConn struct {

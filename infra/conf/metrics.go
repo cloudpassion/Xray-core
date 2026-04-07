@@ -1,8 +1,8 @@
 package conf
 
 import (
-	"github.com/cloudpassion/Xray-core/app/metrics"
-	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/app/metrics"
+	"github.com/cloudpassion/xray-core/common/errors"
 )
 
 type MetricsConfig struct {

@@ -9,10 +9,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/strmatcher"
-	"github.com/cloudpassion/Xray-core/features/routing"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/strmatcher"
+	"github.com/cloudpassion/xray-core/features/routing"
 )
 
 type Condition interface {

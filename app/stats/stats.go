@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/features/stats"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/features/stats"
 )
 
 // Manager is an implementation of stats.Manager.

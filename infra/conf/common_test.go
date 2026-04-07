@@ -7,10 +7,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/protocol"
-	. "github.com/cloudpassion/Xray-core/infra/conf"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/protocol"
+	. "github.com/cloudpassion/xray-core/infra/conf"
 )
 
 func TestStringListUnmarshalError(t *testing.T) {

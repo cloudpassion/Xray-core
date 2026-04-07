@@ -5,14 +5,14 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	. "github.com/cloudpassion/Xray-core/app/router"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/session"
-	"github.com/cloudpassion/Xray-core/features/dns"
-	"github.com/cloudpassion/Xray-core/features/outbound"
-	routing_session "github.com/cloudpassion/Xray-core/features/routing/session"
-	"github.com/cloudpassion/Xray-core/testing/mocks"
+	. "github.com/cloudpassion/xray-core/app/router"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/session"
+	"github.com/cloudpassion/xray-core/features/dns"
+	"github.com/cloudpassion/xray-core/features/outbound"
+	routing_session "github.com/cloudpassion/xray-core/features/routing/session"
+	"github.com/cloudpassion/xray-core/testing/mocks"
 )
 
 type mockOutboundManager struct {

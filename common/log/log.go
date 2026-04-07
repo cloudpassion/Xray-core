@@ -1,9 +1,9 @@
-package log // import "github.com/cloudpassion/Xray-core/common/log"
+package log // import "github.com/cloudpassion/xray-core/common/log"
 
 import (
 	"sync"
 
-	"github.com/cloudpassion/Xray-core/common/serial"
+	"github.com/cloudpassion/xray-core/common/serial"
 )
 
 // Message is the interface for all log messages.

@@ -3,19 +3,19 @@ package tun
 import (
 	"context"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/buf"
-	c "github.com/cloudpassion/Xray-core/common/ctx"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/log"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/protocol"
-	"github.com/cloudpassion/Xray-core/common/session"
-	"github.com/cloudpassion/Xray-core/core"
-	"github.com/cloudpassion/Xray-core/features/policy"
-	"github.com/cloudpassion/Xray-core/features/routing"
-	"github.com/cloudpassion/Xray-core/transport"
-	"github.com/cloudpassion/Xray-core/transport/internet/stat"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/buf"
+	c "github.com/cloudpassion/xray-core/common/ctx"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/log"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/protocol"
+	"github.com/cloudpassion/xray-core/common/session"
+	"github.com/cloudpassion/xray-core/core"
+	"github.com/cloudpassion/xray-core/features/policy"
+	"github.com/cloudpassion/xray-core/features/routing"
+	"github.com/cloudpassion/xray-core/transport"
+	"github.com/cloudpassion/xray-core/transport/internet/stat"
 )
 
 // Handler is managing object that tie together tun interface, ip stack and dispatch connections to the routing

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/cloudpassion/Xray-core/app/stats"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/features/stats"
+	. "github.com/cloudpassion/xray-core/app/stats"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/features/stats"
 )
 
 func TestStatsChannel(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/xray-core/common"
 )
 
 func TestECHDial(t *testing.T) {

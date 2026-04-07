@@ -9,10 +9,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cloudpassion/Xray-core/app/dns"
-	"github.com/cloudpassion/Xray-core/app/router"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/xray-core/app/dns"
+	"github.com/cloudpassion/xray-core/app/router"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
 )
 
 type NameServerConfig struct {

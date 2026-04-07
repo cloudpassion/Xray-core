@@ -1,7 +1,7 @@
 package pipe
 
 import (
-	"github.com/cloudpassion/Xray-core/common/buf"
+	"github.com/cloudpassion/xray-core/common/buf"
 )
 
 // Writer is a buf.Writer that writes data into a pipe.

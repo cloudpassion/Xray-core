@@ -7,16 +7,16 @@ import (
 	_ "net/http/pprof"
 	"strings"
 
-	"github.com/cloudpassion/Xray-core/app/observatory"
-	"github.com/cloudpassion/Xray-core/app/stats"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/signal/done"
-	"github.com/cloudpassion/Xray-core/core"
-	"github.com/cloudpassion/Xray-core/features/extension"
-	"github.com/cloudpassion/Xray-core/features/outbound"
-	feature_stats "github.com/cloudpassion/Xray-core/features/stats"
+	"github.com/cloudpassion/xray-core/app/observatory"
+	"github.com/cloudpassion/xray-core/app/stats"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/signal/done"
+	"github.com/cloudpassion/xray-core/core"
+	"github.com/cloudpassion/xray-core/features/extension"
+	"github.com/cloudpassion/xray-core/features/outbound"
+	feature_stats "github.com/cloudpassion/xray-core/features/stats"
 )
 
 type MetricsHandler struct {

@@ -1,8 +1,8 @@
 package api
 
 import (
-	routerService "github.com/cloudpassion/Xray-core/app/router/command"
-	"github.com/cloudpassion/Xray-core/main/commands/base"
+	routerService "github.com/cloudpassion/xray-core/app/router/command"
+	"github.com/cloudpassion/xray-core/main/commands/base"
 )
 
 var cmdBalancerOverride = &base.Command{

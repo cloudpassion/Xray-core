@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/buf"
-	"github.com/cloudpassion/Xray-core/common/mux"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/session"
-	"github.com/cloudpassion/Xray-core/features/routing"
-	"github.com/cloudpassion/Xray-core/transport"
-	"github.com/cloudpassion/Xray-core/transport/pipe"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/xray-core/common/mux"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/session"
+	"github.com/cloudpassion/xray-core/features/routing"
+	"github.com/cloudpassion/xray-core/transport"
+	"github.com/cloudpassion/xray-core/transport/pipe"
 )
 
 func newLinkPair() (*transport.Link, *transport.Link) {

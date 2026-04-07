@@ -6,12 +6,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/app/observatory"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/dice"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/core"
-	"github.com/cloudpassion/Xray-core/features/extension"
+	"github.com/cloudpassion/xray-core/app/observatory"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/dice"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/core"
+	"github.com/cloudpassion/xray-core/features/extension"
 )
 
 // LeastLoadStrategy represents a least load balancing strategy

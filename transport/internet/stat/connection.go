@@ -3,7 +3,7 @@ package stat
 import (
 	"net"
 
-	"github.com/cloudpassion/Xray-core/features/stats"
+	"github.com/cloudpassion/xray-core/features/stats"
 )
 
 type Connection interface {

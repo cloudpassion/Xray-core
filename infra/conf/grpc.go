@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/cloudpassion/Xray-core/transport/internet/grpc"
+	"github.com/cloudpassion/xray-core/transport/internet/grpc"
 	"google.golang.org/protobuf/proto"
 )
 

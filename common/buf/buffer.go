@@ -3,9 +3,9 @@ package buf
 import (
 	"io"
 
-	"github.com/cloudpassion/Xray-core/common/bytespool"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/bytespool"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
 )
 
 const (

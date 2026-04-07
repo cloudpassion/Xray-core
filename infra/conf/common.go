@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/platform"
-	"github.com/cloudpassion/Xray-core/common/protocol"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/platform"
+	"github.com/cloudpassion/xray-core/common/protocol"
 )
 
 type StringList []string

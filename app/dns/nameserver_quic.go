@@ -9,14 +9,14 @@ import (
 	"time"
 
 	"github.com/apernet/quic-go"
-	"github.com/cloudpassion/Xray-core/common/buf"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/log"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/protocol/dns"
-	"github.com/cloudpassion/Xray-core/common/session"
-	dns_feature "github.com/cloudpassion/Xray-core/features/dns"
-	"github.com/cloudpassion/Xray-core/transport/internet/tls"
+	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/log"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/protocol/dns"
+	"github.com/cloudpassion/xray-core/common/session"
+	dns_feature "github.com/cloudpassion/xray-core/features/dns"
+	"github.com/cloudpassion/xray-core/transport/internet/tls"
 	"golang.org/x/net/http2"
 )
 

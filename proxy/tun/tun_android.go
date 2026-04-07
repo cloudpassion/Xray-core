@@ -6,8 +6,8 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/platform"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/platform"
 	"golang.org/x/sys/unix"
 	"gvisor.dev/gvisor/pkg/tcpip/link/fdbased"
 	"gvisor.dev/gvisor/pkg/tcpip/stack"

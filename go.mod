@@ -1,4 +1,4 @@
-module github.com/cloudpassion/Xray-core
+module github.com/cloudpassion/xray-core
 
 go 1.25.7
 

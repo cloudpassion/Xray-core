@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cloudpassion/Xray-core/app/router"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/platform"
-	"github.com/cloudpassion/Xray-core/common/platform/filesystem"
+	"github.com/cloudpassion/xray-core/app/router"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/platform"
+	"github.com/cloudpassion/xray-core/common/platform/filesystem"
 	"google.golang.org/protobuf/proto"
 )
 

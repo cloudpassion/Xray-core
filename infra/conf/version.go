@@ -1,8 +1,8 @@
 package conf
 
 import (
-	"github.com/cloudpassion/Xray-core/app/version"
-	"github.com/cloudpassion/Xray-core/core"
+	"github.com/cloudpassion/xray-core/app/version"
+	"github.com/cloudpassion/xray-core/core"
 	"strconv"
 )
 

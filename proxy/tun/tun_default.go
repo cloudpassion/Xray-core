@@ -3,7 +3,7 @@
 package tun
 
 import (
-	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/errors"
 	"gvisor.dev/gvisor/pkg/tcpip/stack"
 )
 

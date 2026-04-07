@@ -3,13 +3,13 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/protocol"
-	"github.com/cloudpassion/Xray-core/common/serial"
-	. "github.com/cloudpassion/Xray-core/infra/conf"
-	"github.com/cloudpassion/Xray-core/proxy/vless"
-	"github.com/cloudpassion/Xray-core/proxy/vless/inbound"
-	"github.com/cloudpassion/Xray-core/proxy/vless/outbound"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/protocol"
+	"github.com/cloudpassion/xray-core/common/serial"
+	. "github.com/cloudpassion/xray-core/infra/conf"
+	"github.com/cloudpassion/xray-core/proxy/vless"
+	"github.com/cloudpassion/xray-core/proxy/vless/inbound"
+	"github.com/cloudpassion/xray-core/proxy/vless/outbound"
 )
 
 func TestVLessOutbound(t *testing.T) {

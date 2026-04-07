@@ -12,16 +12,16 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/buf"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/protocol/tls/cert"
-	"github.com/cloudpassion/Xray-core/testing/servers/tcp"
-	"github.com/cloudpassion/Xray-core/testing/servers/udp"
-	"github.com/cloudpassion/Xray-core/transport/internet"
-	. "github.com/cloudpassion/Xray-core/transport/internet/splithttp"
-	"github.com/cloudpassion/Xray-core/transport/internet/stat"
-	"github.com/cloudpassion/Xray-core/transport/internet/tls"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/protocol/tls/cert"
+	"github.com/cloudpassion/xray-core/testing/servers/tcp"
+	"github.com/cloudpassion/xray-core/testing/servers/udp"
+	"github.com/cloudpassion/xray-core/transport/internet"
+	. "github.com/cloudpassion/xray-core/transport/internet/splithttp"
+	"github.com/cloudpassion/xray-core/transport/internet/stat"
+	"github.com/cloudpassion/xray-core/transport/internet/tls"
 )
 
 func Test_ListenXHAndDial(t *testing.T) {

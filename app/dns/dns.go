@@ -12,14 +12,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/app/router"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/platform"
-	"github.com/cloudpassion/Xray-core/common/session"
-	"github.com/cloudpassion/Xray-core/common/strmatcher"
-	"github.com/cloudpassion/Xray-core/features/dns"
+	"github.com/cloudpassion/xray-core/app/router"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/platform"
+	"github.com/cloudpassion/xray-core/common/session"
+	"github.com/cloudpassion/xray-core/common/strmatcher"
+	"github.com/cloudpassion/xray-core/features/dns"
 )
 
 // DNS is a DNS rely server.

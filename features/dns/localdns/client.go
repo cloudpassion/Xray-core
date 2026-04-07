@@ -1,8 +1,8 @@
 package localdns
 
 import (
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/features/dns"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/features/dns"
 )
 
 // Client is an implementation of dns.Client, which queries localhost for DNS.

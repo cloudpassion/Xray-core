@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/ocsp"
-	"github.com/cloudpassion/Xray-core/common/platform/filesystem"
-	"github.com/cloudpassion/Xray-core/common/protocol/tls/cert"
-	"github.com/cloudpassion/Xray-core/transport/internet"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/ocsp"
+	"github.com/cloudpassion/xray-core/common/platform/filesystem"
+	"github.com/cloudpassion/xray-core/common/protocol/tls/cert"
+	"github.com/cloudpassion/xray-core/transport/internet"
 )
 
 var globalSessionCache = tls.NewLRUClientSessionCache(128)

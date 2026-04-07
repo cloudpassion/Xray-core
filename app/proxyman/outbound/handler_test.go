@@ -8,17 +8,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/app/policy"
-	"github.com/cloudpassion/Xray-core/app/proxyman"
-	. "github.com/cloudpassion/Xray-core/app/proxyman/outbound"
-	"github.com/cloudpassion/Xray-core/app/stats"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/serial"
-	"github.com/cloudpassion/Xray-core/common/session"
-	core "github.com/cloudpassion/Xray-core/core"
-	"github.com/cloudpassion/Xray-core/features/outbound"
-	"github.com/cloudpassion/Xray-core/proxy/freedom"
-	"github.com/cloudpassion/Xray-core/transport/internet/stat"
+	"github.com/cloudpassion/xray-core/app/policy"
+	"github.com/cloudpassion/xray-core/app/proxyman"
+	. "github.com/cloudpassion/xray-core/app/proxyman/outbound"
+	"github.com/cloudpassion/xray-core/app/stats"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/serial"
+	"github.com/cloudpassion/xray-core/common/session"
+	core "github.com/cloudpassion/xray-core/core"
+	"github.com/cloudpassion/xray-core/features/outbound"
+	"github.com/cloudpassion/xray-core/proxy/freedom"
+	"github.com/cloudpassion/xray-core/transport/internet/stat"
 )
 
 func TestInterfaces(t *testing.T) {

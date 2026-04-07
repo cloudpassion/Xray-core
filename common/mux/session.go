@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/buf"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/protocol"
-	"github.com/cloudpassion/Xray-core/common/signal/done"
-	"github.com/cloudpassion/Xray-core/transport/pipe"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/protocol"
+	"github.com/cloudpassion/xray-core/common/signal/done"
+	"github.com/cloudpassion/xray-core/transport/pipe"
 )
 
 type SessionManager struct {

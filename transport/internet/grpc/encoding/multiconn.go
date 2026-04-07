@@ -5,11 +5,11 @@ import (
 	"io"
 	"net"
 
-	"github.com/cloudpassion/Xray-core/common/buf"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	xnet "github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/net/cnc"
-	"github.com/cloudpassion/Xray-core/common/signal/done"
+	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/xray-core/common/errors"
+	xnet "github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/net/cnc"
+	"github.com/cloudpassion/xray-core/common/signal/done"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 )

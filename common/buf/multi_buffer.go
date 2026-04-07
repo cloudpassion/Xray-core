@@ -3,9 +3,9 @@ package buf
 import (
 	"io"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/serial"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/serial"
 )
 
 // ReadAllToBytes reads all content from the reader into a byte array, until EOF.

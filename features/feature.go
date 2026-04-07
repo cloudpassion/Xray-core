@@ -1,7 +1,7 @@
 package features
 
 import (
-	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/xray-core/common"
 )
 
 // Feature is the interface for Xray features. All features must implement this interface.

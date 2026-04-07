@@ -9,8 +9,8 @@ import (
 
 	"github.com/cloudflare/circl/sign/mldsa/mldsa65"
 	"github.com/cloudpassion/reality"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/transport/internet"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/transport/internet"
 )
 
 func (c *Config) GetREALITYConfig() *reality.Config {

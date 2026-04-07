@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/cloudpassion/Xray-core/common"
-	. "github.com/cloudpassion/Xray-core/infra/conf/json"
+	"github.com/cloudpassion/xray-core/common"
+	. "github.com/cloudpassion/xray-core/infra/conf/json"
 )
 
 func TestReader(t *testing.T) {

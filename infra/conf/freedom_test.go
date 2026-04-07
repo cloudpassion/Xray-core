@@ -3,11 +3,11 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/protocol"
-	. "github.com/cloudpassion/Xray-core/infra/conf"
-	"github.com/cloudpassion/Xray-core/proxy/freedom"
-	"github.com/cloudpassion/Xray-core/transport/internet"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/protocol"
+	. "github.com/cloudpassion/xray-core/infra/conf"
+	"github.com/cloudpassion/xray-core/proxy/freedom"
+	"github.com/cloudpassion/xray-core/transport/internet"
 )
 
 func TestFreedomConfig(t *testing.T) {

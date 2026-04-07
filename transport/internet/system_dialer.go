@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/sagernet/sing/common/control"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/features/dns"
-	"github.com/cloudpassion/Xray-core/features/outbound"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/features/dns"
+	"github.com/cloudpassion/xray-core/features/outbound"
 )
 
 var effectiveSystemDialer SystemDialer = &DefaultSystemDialer{}

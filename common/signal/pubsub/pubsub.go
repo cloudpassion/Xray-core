@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/signal/done"
-	"github.com/cloudpassion/Xray-core/common/task"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/signal/done"
+	"github.com/cloudpassion/xray-core/common/task"
 )
 
 type Subscriber struct {

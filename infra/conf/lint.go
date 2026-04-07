@@ -1,6 +1,6 @@
 package conf
 
-import "github.com/cloudpassion/Xray-core/common/errors"
+import "github.com/cloudpassion/xray-core/common/errors"
 
 type ConfigureFilePostProcessingStage interface {
 	Process(conf *Config) error

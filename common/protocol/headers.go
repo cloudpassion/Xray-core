@@ -3,8 +3,8 @@ package protocol
 import (
 	"runtime"
 
-	"github.com/cloudpassion/Xray-core/common/bitmask"
-	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/bitmask"
+	"github.com/cloudpassion/xray-core/common/net"
 	"golang.org/x/sys/cpu"
 )
 

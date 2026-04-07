@@ -1,7 +1,7 @@
 package all
 
 import (
-	"github.com/cloudpassion/Xray-core/main/commands/base"
+	"github.com/cloudpassion/xray-core/main/commands/base"
 )
 
 var cmdX25519 = &base.Command{

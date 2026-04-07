@@ -4,9 +4,9 @@ import (
 	"google.golang.org/protobuf/proto"
 	"strings"
 
-	"github.com/cloudpassion/Xray-core/app/observatory/burst"
-	"github.com/cloudpassion/Xray-core/app/router"
-	"github.com/cloudpassion/Xray-core/infra/conf/cfgcommon/duration"
+	"github.com/cloudpassion/xray-core/app/observatory/burst"
+	"github.com/cloudpassion/xray-core/app/router"
+	"github.com/cloudpassion/xray-core/infra/conf/cfgcommon/duration"
 )
 
 const (

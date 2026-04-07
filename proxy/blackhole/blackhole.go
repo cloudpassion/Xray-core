@@ -5,10 +5,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/session"
-	"github.com/cloudpassion/Xray-core/transport"
-	"github.com/cloudpassion/Xray-core/transport/internet"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/session"
+	"github.com/cloudpassion/xray-core/transport"
+	"github.com/cloudpassion/xray-core/transport/internet"
 )
 
 // Handler is an outbound connection that silently swallow the entire payload.

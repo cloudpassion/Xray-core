@@ -3,8 +3,8 @@ package splithttp_test
 import (
 	"testing"
 
-	"github.com/cloudpassion/Xray-core/common"
-	. "github.com/cloudpassion/Xray-core/transport/internet/splithttp"
+	"github.com/cloudpassion/xray-core/common"
+	. "github.com/cloudpassion/xray-core/transport/internet/splithttp"
 )
 
 func Test_regression_readzero(t *testing.T) {

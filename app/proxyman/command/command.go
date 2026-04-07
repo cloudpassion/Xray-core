@@ -3,14 +3,14 @@ package command
 import (
 	"context"
 
-	"github.com/cloudpassion/Xray-core/app/commander"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/protocol"
-	"github.com/cloudpassion/Xray-core/core"
-	"github.com/cloudpassion/Xray-core/features/inbound"
-	"github.com/cloudpassion/Xray-core/features/outbound"
-	"github.com/cloudpassion/Xray-core/proxy"
+	"github.com/cloudpassion/xray-core/app/commander"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/protocol"
+	"github.com/cloudpassion/xray-core/core"
+	"github.com/cloudpassion/xray-core/features/inbound"
+	"github.com/cloudpassion/xray-core/features/outbound"
+	"github.com/cloudpassion/xray-core/proxy"
 	grpc "google.golang.org/grpc"
 )
 

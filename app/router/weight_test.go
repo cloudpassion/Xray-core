@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cloudpassion/Xray-core/app/router"
+	"github.com/cloudpassion/xray-core/app/router"
 )
 
 func TestWeight(t *testing.T) {

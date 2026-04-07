@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cloudpassion/Xray-core/common/buf"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/task"
-	"github.com/cloudpassion/Xray-core/transport/internet"
-	"github.com/cloudpassion/Xray-core/transport/pipe"
+	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/task"
+	"github.com/cloudpassion/xray-core/transport/internet"
+	"github.com/cloudpassion/xray-core/transport/pipe"
 )
 
 type Server struct {

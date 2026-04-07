@@ -3,14 +3,14 @@ package conf
 import (
 	"strings"
 
-	"github.com/cloudpassion/Xray-core/app/commander"
-	loggerservice "github.com/cloudpassion/Xray-core/app/log/command"
-	observatoryservice "github.com/cloudpassion/Xray-core/app/observatory/command"
-	handlerservice "github.com/cloudpassion/Xray-core/app/proxyman/command"
-	routerservice "github.com/cloudpassion/Xray-core/app/router/command"
-	statsservice "github.com/cloudpassion/Xray-core/app/stats/command"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/serial"
+	"github.com/cloudpassion/xray-core/app/commander"
+	loggerservice "github.com/cloudpassion/xray-core/app/log/command"
+	observatoryservice "github.com/cloudpassion/xray-core/app/observatory/command"
+	handlerservice "github.com/cloudpassion/xray-core/app/proxyman/command"
+	routerservice "github.com/cloudpassion/xray-core/app/router/command"
+	statsservice "github.com/cloudpassion/xray-core/app/stats/command"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/serial"
 )
 
 type APIConfig struct {

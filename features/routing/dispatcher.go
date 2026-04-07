@@ -3,9 +3,9 @@ package routing
 import (
 	"context"
 
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/features"
-	"github.com/cloudpassion/Xray-core/transport"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/features"
+	"github.com/cloudpassion/xray-core/transport"
 )
 
 // Dispatcher is a feature that dispatches inbound requests to outbound handlers based on rules.

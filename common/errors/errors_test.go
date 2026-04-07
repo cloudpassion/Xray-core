@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	. "github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/log"
+	. "github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/log"
 )
 
 func TestError(t *testing.T) {

@@ -5,12 +5,12 @@ import (
 	"io"
 	"net"
 
-	"github.com/cloudpassion/Xray-core/common/buf"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/protocol"
-	"github.com/cloudpassion/Xray-core/common/session"
-	"github.com/cloudpassion/Xray-core/proxy"
-	"github.com/cloudpassion/Xray-core/proxy/vless"
+	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/protocol"
+	"github.com/cloudpassion/xray-core/common/session"
+	"github.com/cloudpassion/xray-core/proxy"
+	"github.com/cloudpassion/xray-core/proxy/vless"
 	"google.golang.org/protobuf/proto"
 )
 

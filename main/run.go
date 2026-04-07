@@ -14,12 +14,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/cloudpassion/Xray-core/common/cmdarg"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	clog "github.com/cloudpassion/Xray-core/common/log"
-	"github.com/cloudpassion/Xray-core/common/platform"
-	"github.com/cloudpassion/Xray-core/core"
-	"github.com/cloudpassion/Xray-core/main/commands/base"
+	"github.com/cloudpassion/xray-core/common/cmdarg"
+	"github.com/cloudpassion/xray-core/common/errors"
+	clog "github.com/cloudpassion/xray-core/common/log"
+	"github.com/cloudpassion/xray-core/common/platform"
+	"github.com/cloudpassion/xray-core/core"
+	"github.com/cloudpassion/xray-core/main/commands/base"
 )
 
 var cmdRun = &base.Command{

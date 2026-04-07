@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"strings"
 
-	cnet "github.com/cloudpassion/Xray-core/common/net"
-	cserial "github.com/cloudpassion/Xray-core/common/serial"
-	"github.com/cloudpassion/Xray-core/infra/conf"
+	cnet "github.com/cloudpassion/xray-core/common/net"
+	cserial "github.com/cloudpassion/xray-core/common/serial"
+	"github.com/cloudpassion/xray-core/infra/conf"
 )
 
 func MarshalToJson(v interface{}, insertTypeInfo bool) (string, bool) {

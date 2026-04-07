@@ -1,15 +1,15 @@
 // Package session provides functions for sessions of incoming requests.
-package session // import "github.com/cloudpassion/Xray-core/common/session"
+package session // import "github.com/cloudpassion/xray-core/common/session"
 
 import (
 	"context"
 	"math/rand"
 
-	c "github.com/cloudpassion/Xray-core/common/ctx"
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/net"
-	"github.com/cloudpassion/Xray-core/common/protocol"
-	"github.com/cloudpassion/Xray-core/common/signal"
+	c "github.com/cloudpassion/xray-core/common/ctx"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/xray-core/common/protocol"
+	"github.com/cloudpassion/xray-core/common/signal"
 )
 
 // NewID generates a new ID. The generated ID is high likely to be unique, but not cryptographically secure.

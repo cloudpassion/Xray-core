@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/cloudpassion/Xray-core/app/dns"
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/features/dns"
+	. "github.com/cloudpassion/xray-core/app/dns"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/features/dns"
 )
 
 func TestLocalNameServer(t *testing.T) {

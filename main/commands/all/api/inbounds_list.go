@@ -1,8 +1,8 @@
 package api
 
 import (
-	handlerService "github.com/cloudpassion/Xray-core/app/proxyman/command"
-	"github.com/cloudpassion/Xray-core/main/commands/base"
+	handlerService "github.com/cloudpassion/xray-core/app/proxyman/command"
+	"github.com/cloudpassion/xray-core/main/commands/base"
 )
 
 var cmdListInbounds = &base.Command{

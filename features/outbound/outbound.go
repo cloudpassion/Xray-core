@@ -3,10 +3,10 @@ package outbound
 import (
 	"context"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/serial"
-	"github.com/cloudpassion/Xray-core/features"
-	"github.com/cloudpassion/Xray-core/transport"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/serial"
+	"github.com/cloudpassion/xray-core/features"
+	"github.com/cloudpassion/xray-core/transport"
 )
 
 // Handler is the interface for handlers that process outbound connections.

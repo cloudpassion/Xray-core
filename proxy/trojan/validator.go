@@ -4,8 +4,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cloudpassion/Xray-core/common/errors"
-	"github.com/cloudpassion/Xray-core/common/protocol"
+	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common/protocol"
 )
 
 // Validator stores valid trojan users.

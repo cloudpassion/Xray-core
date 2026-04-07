@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/cloudpassion/Xray-core/common"
-	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/xray-core/common/errors"
 )
 
 // Channel is an implementation of stats.Channel.
