@@ -5,11 +5,11 @@ import (
 	go_errors "errors"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/log"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/signal/pubsub"
-	"github.com/cloudpassion/xray-core/features/dns"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/log"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/signal/pubsub"
+	"github.com/cloudpassion/Xray-core/features/dns"
 )
 
 type CachedNameserver interface {

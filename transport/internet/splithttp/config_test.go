@@ -3,7 +3,7 @@ package splithttp_test
 import (
 	"testing"
 
-	. "github.com/cloudpassion/xray-core/transport/internet/splithttp"
+	. "github.com/cloudpassion/Xray-core/transport/internet/splithttp"
 )
 
 func Test_GetNormalizedPath(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/buf"
 )
 
 // ChunkSizeDecoder is a utility class to decode size value from bytes.

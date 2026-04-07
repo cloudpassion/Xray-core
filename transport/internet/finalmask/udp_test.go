@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudpassion/xray-core/transport/internet/finalmask"
-	"github.com/cloudpassion/xray-core/transport/internet/finalmask/header/dns"
-	"github.com/cloudpassion/xray-core/transport/internet/finalmask/header/srtp"
-	"github.com/cloudpassion/xray-core/transport/internet/finalmask/header/utp"
-	"github.com/cloudpassion/xray-core/transport/internet/finalmask/header/wechat"
-	"github.com/cloudpassion/xray-core/transport/internet/finalmask/header/wireguard"
-	"github.com/cloudpassion/xray-core/transport/internet/finalmask/mkcp/aes128gcm"
-	"github.com/cloudpassion/xray-core/transport/internet/finalmask/mkcp/original"
-	"github.com/cloudpassion/xray-core/transport/internet/finalmask/salamander"
+	"github.com/cloudpassion/Xray-core/transport/internet/finalmask"
+	"github.com/cloudpassion/Xray-core/transport/internet/finalmask/header/dns"
+	"github.com/cloudpassion/Xray-core/transport/internet/finalmask/header/srtp"
+	"github.com/cloudpassion/Xray-core/transport/internet/finalmask/header/utp"
+	"github.com/cloudpassion/Xray-core/transport/internet/finalmask/header/wechat"
+	"github.com/cloudpassion/Xray-core/transport/internet/finalmask/header/wireguard"
+	"github.com/cloudpassion/Xray-core/transport/internet/finalmask/mkcp/aes128gcm"
+	"github.com/cloudpassion/Xray-core/transport/internet/finalmask/mkcp/original"
+	"github.com/cloudpassion/Xray-core/transport/internet/finalmask/salamander"
 )
 
 func mustSendRecv(

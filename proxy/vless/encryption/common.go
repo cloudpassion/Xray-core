@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/crypto"
-	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/crypto"
+	"github.com/cloudpassion/Xray-core/common/errors"
 	"golang.org/x/crypto/chacha20poly1305"
 	"lukechampine.com/blake3"
 )

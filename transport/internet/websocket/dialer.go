@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/transport/internet"
-	"github.com/cloudpassion/xray-core/transport/internet/browser_dialer"
-	"github.com/cloudpassion/xray-core/transport/internet/stat"
-	"github.com/cloudpassion/xray-core/transport/internet/tls"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/transport/internet"
+	"github.com/cloudpassion/Xray-core/transport/internet/browser_dialer"
+	"github.com/cloudpassion/Xray-core/transport/internet/stat"
+	"github.com/cloudpassion/Xray-core/transport/internet/tls"
 )
 
 // Dial dials a WebSocket connection to the given destination.

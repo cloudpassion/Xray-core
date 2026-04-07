@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/cloudpassion/xray-core/app/stats"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/features/stats"
+	. "github.com/cloudpassion/Xray-core/app/stats"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/features/stats"
 )
 
 func TestInterface(t *testing.T) {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/cloudpassion/xray-core/common/errors"
-	creflect "github.com/cloudpassion/xray-core/common/reflect"
-	"github.com/cloudpassion/xray-core/core"
-	"github.com/cloudpassion/xray-core/infra/conf"
-	"github.com/cloudpassion/xray-core/main/confloader"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	creflect "github.com/cloudpassion/Xray-core/common/reflect"
+	"github.com/cloudpassion/Xray-core/core"
+	"github.com/cloudpassion/Xray-core/infra/conf"
+	"github.com/cloudpassion/Xray-core/main/confloader"
 )
 
 func MergeConfigFromFiles(files []*core.ConfigSource) (string, error) {

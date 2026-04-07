@@ -13,8 +13,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/errors"
 )
 
 type Certificate struct {

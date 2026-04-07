@@ -6,8 +6,8 @@ import (
 	sync "sync"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/dice"
-	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/dice"
+	"github.com/cloudpassion/Xray-core/common/errors"
 )
 
 type dtls struct {

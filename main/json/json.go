@@ -4,13 +4,13 @@ import (
 	"context"
 	"io"
 
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/cmdarg"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/core"
-	"github.com/cloudpassion/xray-core/infra/conf"
-	"github.com/cloudpassion/xray-core/infra/conf/serial"
-	"github.com/cloudpassion/xray-core/main/confloader"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/cmdarg"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/core"
+	"github.com/cloudpassion/Xray-core/infra/conf"
+	"github.com/cloudpassion/Xray-core/infra/conf/serial"
+	"github.com/cloudpassion/Xray-core/main/confloader"
 )
 
 func init() {

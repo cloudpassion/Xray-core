@@ -15,7 +15,7 @@ import (
 
 	"github.com/sagernet/sing/common/control"
 	"github.com/vishvananda/netlink"
-	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/errors"
 	wgtun "golang.zx2c4.com/wireguard/tun"
 )
 

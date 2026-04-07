@@ -5,10 +5,10 @@ import (
 	"os"
 
 	"github.com/sagernet/sing/common/uot"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/transport/internet"
-	"github.com/cloudpassion/xray-core/transport/internet/stat"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/transport/internet"
+	"github.com/cloudpassion/Xray-core/transport/internet/stat"
 )
 
 func (h *Handler) getUoTConnection(ctx context.Context, dest net.Destination) (stat.Connection, error) {

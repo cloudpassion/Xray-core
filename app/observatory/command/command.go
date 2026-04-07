@@ -3,10 +3,10 @@ package command
 import (
 	"context"
 
-	"github.com/cloudpassion/xray-core/app/observatory"
-	"github.com/cloudpassion/xray-core/common"
-	core "github.com/cloudpassion/xray-core/core"
-	"github.com/cloudpassion/xray-core/features/extension"
+	"github.com/cloudpassion/Xray-core/app/observatory"
+	"github.com/cloudpassion/Xray-core/common"
+	core "github.com/cloudpassion/Xray-core/core"
+	"github.com/cloudpassion/Xray-core/features/extension"
 	"google.golang.org/grpc"
 )
 

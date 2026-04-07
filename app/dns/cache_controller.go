@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/signal/pubsub"
-	"github.com/cloudpassion/xray-core/common/task"
-	dns_feature "github.com/cloudpassion/xray-core/features/dns"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/signal/pubsub"
+	"github.com/cloudpassion/Xray-core/common/task"
+	dns_feature "github.com/cloudpassion/Xray-core/features/dns"
 
 	"golang.org/x/net/dns/dnsmessage"
 	"golang.org/x/sync/singleflight"

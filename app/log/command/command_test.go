@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudpassion/xray-core/app/dispatcher"
-	"github.com/cloudpassion/xray-core/app/log"
-	. "github.com/cloudpassion/xray-core/app/log/command"
-	"github.com/cloudpassion/xray-core/app/proxyman"
-	_ "github.com/cloudpassion/xray-core/app/proxyman/inbound"
-	_ "github.com/cloudpassion/xray-core/app/proxyman/outbound"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/serial"
-	"github.com/cloudpassion/xray-core/core"
+	"github.com/cloudpassion/Xray-core/app/dispatcher"
+	"github.com/cloudpassion/Xray-core/app/log"
+	. "github.com/cloudpassion/Xray-core/app/log/command"
+	"github.com/cloudpassion/Xray-core/app/proxyman"
+	_ "github.com/cloudpassion/Xray-core/app/proxyman/inbound"
+	_ "github.com/cloudpassion/Xray-core/app/proxyman/outbound"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/serial"
+	"github.com/cloudpassion/Xray-core/core"
 )
 
 func TestLoggerRestart(t *testing.T) {

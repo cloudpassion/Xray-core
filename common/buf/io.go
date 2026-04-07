@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/features/stats"
-	"github.com/cloudpassion/xray-core/transport/internet/stat"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/features/stats"
+	"github.com/cloudpassion/Xray-core/transport/internet/stat"
 )
 
 // Reader extends io.Reader with MultiBuffer.

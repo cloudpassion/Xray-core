@@ -3,11 +3,11 @@ package mux
 import (
 	"io"
 
-	"github.com/cloudpassion/xray-core/common/buf"
-	"github.com/cloudpassion/xray-core/common/crypto"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/serial"
+	"github.com/cloudpassion/Xray-core/common/buf"
+	"github.com/cloudpassion/Xray-core/common/crypto"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/serial"
 )
 
 // PacketReader is an io.Reader that reads whole chunk of Mux frames every time.

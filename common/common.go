@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/errors"
 )
 
 // ErrNoClue is for the situation that existing information is not enough to make a decision. For example, Router may return this error when there is no suitable route.

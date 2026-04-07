@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/sagernet/sing/common/control"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/transport/internet"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/transport/internet"
 )
 
 func TestRegisterListenerController(t *testing.T) {

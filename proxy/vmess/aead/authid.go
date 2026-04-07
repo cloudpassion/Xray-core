@@ -12,8 +12,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/antireplay"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/antireplay"
 )
 
 var (

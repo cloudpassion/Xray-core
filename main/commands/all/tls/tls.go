@@ -1,7 +1,7 @@
 package tls
 
 import (
-	"github.com/cloudpassion/xray-core/main/commands/base"
+	"github.com/cloudpassion/Xray-core/main/commands/base"
 )
 
 // CmdTLS holds all tls sub commands

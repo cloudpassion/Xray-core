@@ -3,10 +3,10 @@ package dns
 import (
 	"context"
 
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/features/dns"
-	"github.com/cloudpassion/xray-core/features/routing"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/features/dns"
+	"github.com/cloudpassion/Xray-core/features/routing"
 )
 
 // ResolvableContext is an implementation of routing.Context, with domain resolving capability.

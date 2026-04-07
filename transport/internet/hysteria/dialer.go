@@ -13,17 +13,17 @@ import (
 
 	"github.com/apernet/quic-go"
 	"github.com/apernet/quic-go/http3"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/task"
-	hyCtx "github.com/cloudpassion/xray-core/proxy/hysteria/ctx"
-	"github.com/cloudpassion/xray-core/transport/internet"
-	"github.com/cloudpassion/xray-core/transport/internet/finalmask"
-	"github.com/cloudpassion/xray-core/transport/internet/hysteria/congestion"
-	"github.com/cloudpassion/xray-core/transport/internet/hysteria/udphop"
-	"github.com/cloudpassion/xray-core/transport/internet/stat"
-	"github.com/cloudpassion/xray-core/transport/internet/tls"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/task"
+	hyCtx "github.com/cloudpassion/Xray-core/proxy/hysteria/ctx"
+	"github.com/cloudpassion/Xray-core/transport/internet"
+	"github.com/cloudpassion/Xray-core/transport/internet/finalmask"
+	"github.com/cloudpassion/Xray-core/transport/internet/hysteria/congestion"
+	"github.com/cloudpassion/Xray-core/transport/internet/hysteria/udphop"
+	"github.com/cloudpassion/Xray-core/transport/internet/stat"
+	"github.com/cloudpassion/Xray-core/transport/internet/tls"
 )
 
 type udpSessionManager struct {

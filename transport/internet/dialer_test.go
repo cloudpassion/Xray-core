@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/testing/servers/tcp"
-	. "github.com/cloudpassion/xray-core/transport/internet"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/testing/servers/tcp"
+	. "github.com/cloudpassion/Xray-core/transport/internet"
 )
 
 func TestDialWithLocalAddr(t *testing.T) {

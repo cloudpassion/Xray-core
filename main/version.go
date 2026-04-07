@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/cloudpassion/xray-core/core"
-	"github.com/cloudpassion/xray-core/main/commands/base"
+	"github.com/cloudpassion/Xray-core/core"
+	"github.com/cloudpassion/Xray-core/main/commands/base"
 )
 
 var cmdVersion = &base.Command{

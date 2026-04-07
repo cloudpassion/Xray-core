@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/utils"
-	"github.com/cloudpassion/xray-core/features/routing"
-	"github.com/cloudpassion/xray-core/transport/internet/tagged"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/utils"
+	"github.com/cloudpassion/Xray-core/features/routing"
+	"github.com/cloudpassion/Xray-core/transport/internet/tagged"
 )
 
 type pingClient struct {

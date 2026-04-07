@@ -3,7 +3,7 @@ package serial_test
 import (
 	"testing"
 
-	. "github.com/cloudpassion/xray-core/common/serial"
+	. "github.com/cloudpassion/Xray-core/common/serial"
 )
 
 func TestGetInstance(t *testing.T) {

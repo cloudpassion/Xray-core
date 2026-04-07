@@ -11,14 +11,14 @@ import (
 	"github.com/sagernet/sing/common/bufio"
 	N "github.com/sagernet/sing/common/network"
 	"github.com/sagernet/sing/common/uot"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/buf"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/session"
-	"github.com/cloudpassion/xray-core/common/singbridge"
-	"github.com/cloudpassion/xray-core/transport"
-	"github.com/cloudpassion/xray-core/transport/internet"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/buf"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/session"
+	"github.com/cloudpassion/Xray-core/common/singbridge"
+	"github.com/cloudpassion/Xray-core/transport"
+	"github.com/cloudpassion/Xray-core/transport/internet"
 )
 
 func init() {

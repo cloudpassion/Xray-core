@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/cloudpassion/xray-core/common/buf"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/serial"
+	"github.com/cloudpassion/Xray-core/common/buf"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/serial"
 )
 
 var _ buf.Writer = (*connection)(nil)

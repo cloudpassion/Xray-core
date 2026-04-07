@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/cloudpassion/xray-core/common/protocol"
+	. "github.com/cloudpassion/Xray-core/common/protocol"
 )
 
 func TestGenerateRandomInt64InRange(t *testing.T) {

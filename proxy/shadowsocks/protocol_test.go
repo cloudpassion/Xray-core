@@ -4,11 +4,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/buf"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/protocol"
-	. "github.com/cloudpassion/xray-core/proxy/shadowsocks"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/buf"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/protocol"
+	. "github.com/cloudpassion/Xray-core/proxy/shadowsocks"
 )
 
 func toAccount(a *Account) protocol.Account {

@@ -4,14 +4,14 @@ import (
 	"context"
 	"sync"
 
-	"github.com/cloudpassion/xray-core/app/proxyman"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/serial"
-	"github.com/cloudpassion/xray-core/common/session"
-	"github.com/cloudpassion/xray-core/core"
-	"github.com/cloudpassion/xray-core/features/inbound"
+	"github.com/cloudpassion/Xray-core/app/proxyman"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/serial"
+	"github.com/cloudpassion/Xray-core/common/session"
+	"github.com/cloudpassion/Xray-core/core"
+	"github.com/cloudpassion/Xray-core/features/inbound"
 )
 
 // Manager manages all inbound handlers.

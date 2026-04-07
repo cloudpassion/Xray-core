@@ -7,10 +7,10 @@ import (
 
 	"github.com/ghodss/yaml"
 	"github.com/pelletier/go-toml"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/core"
-	"github.com/cloudpassion/xray-core/infra/conf"
-	json_reader "github.com/cloudpassion/xray-core/infra/conf/json"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/core"
+	"github.com/cloudpassion/Xray-core/infra/conf"
+	json_reader "github.com/cloudpassion/Xray-core/infra/conf/json"
 )
 
 type offset struct {

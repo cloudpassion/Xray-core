@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cloudpassion/xray-core/transport/internet/hysteria/congestion/common"
+	"github.com/cloudpassion/Xray-core/transport/internet/hysteria/congestion/common"
 
 	"github.com/apernet/quic-go/congestion"
 )

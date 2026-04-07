@@ -5,13 +5,13 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/buf"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/protocol"
-	"github.com/cloudpassion/xray-core/common/uuid"
-	"github.com/cloudpassion/xray-core/proxy/vmess"
-	. "github.com/cloudpassion/xray-core/proxy/vmess/encoding"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/buf"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/protocol"
+	"github.com/cloudpassion/Xray-core/common/uuid"
+	"github.com/cloudpassion/Xray-core/proxy/vmess"
+	. "github.com/cloudpassion/Xray-core/proxy/vmess/encoding"
 )
 
 func toAccount(a *vmess.Account) protocol.Account {

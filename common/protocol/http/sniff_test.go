@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/cloudpassion/xray-core/common/protocol/http"
+	. "github.com/cloudpassion/Xray-core/common/protocol/http"
 )
 
 func TestHTTPHeaders(t *testing.T) {

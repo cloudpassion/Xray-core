@@ -1,9 +1,9 @@
 package conf
 
 import (
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/proxy/dokodemo"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/proxy/dokodemo"
 	"google.golang.org/protobuf/proto"
 )
 

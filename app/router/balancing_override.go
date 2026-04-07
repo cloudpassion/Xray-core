@@ -3,7 +3,7 @@ package router
 import (
 	sync "sync"
 
-	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/errors"
 )
 
 func (r *Router) OverrideBalancer(balancer string, target string) error {

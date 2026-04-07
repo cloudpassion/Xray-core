@@ -18,17 +18,17 @@ import (
 	"time"
 
 	utls "github.com/refraction-networking/utls"
-	"github.com/cloudpassion/xray-core/common/crypto"
-	dns2 "github.com/cloudpassion/xray-core/features/dns"
+	"github.com/cloudpassion/Xray-core/common/crypto"
+	dns2 "github.com/cloudpassion/Xray-core/features/dns"
 	"golang.org/x/net/http2"
 
 	"github.com/miekg/dns"
 	"github.com/cloudpassion/reality"
 	"github.com/cloudpassion/reality/hpke"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/utils"
-	"github.com/cloudpassion/xray-core/transport/internet"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/utils"
+	"github.com/cloudpassion/Xray-core/transport/internet"
 	"golang.org/x/crypto/cryptobyte"
 )
 

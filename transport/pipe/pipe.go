@@ -3,9 +3,9 @@ package pipe
 import (
 	"context"
 
-	"github.com/cloudpassion/xray-core/common/signal"
-	"github.com/cloudpassion/xray-core/common/signal/done"
-	"github.com/cloudpassion/xray-core/features/policy"
+	"github.com/cloudpassion/Xray-core/common/signal"
+	"github.com/cloudpassion/Xray-core/common/signal/done"
+	"github.com/cloudpassion/Xray-core/features/policy"
 )
 
 // Option for creating new Pipes.

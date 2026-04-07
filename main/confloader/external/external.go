@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/buf"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/main/confloader"
+	"github.com/cloudpassion/Xray-core/common/buf"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/main/confloader"
 )
 
 func ConfigLoader(arg string) (out io.Reader, err error) {

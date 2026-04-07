@@ -4,13 +4,13 @@ import (
 	"context"
 	"sync"
 
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/net/cnc"
-	"github.com/cloudpassion/xray-core/common/serial"
-	"github.com/cloudpassion/xray-core/common/signal/done"
-	"github.com/cloudpassion/xray-core/transport"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/net/cnc"
+	"github.com/cloudpassion/Xray-core/common/serial"
+	"github.com/cloudpassion/Xray-core/common/signal/done"
+	"github.com/cloudpassion/Xray-core/transport"
 )
 
 // OutboundListener is a net.Listener for listening gRPC connections.

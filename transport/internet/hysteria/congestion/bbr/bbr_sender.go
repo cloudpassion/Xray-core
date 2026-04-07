@@ -10,7 +10,7 @@ import (
 
 	"github.com/apernet/quic-go/congestion"
 
-	"github.com/cloudpassion/xray-core/transport/internet/hysteria/congestion/common"
+	"github.com/cloudpassion/Xray-core/transport/internet/hysteria/congestion/common"
 )
 
 // BbrSender implements BBR congestion control algorithm.  BBR aims to estimate

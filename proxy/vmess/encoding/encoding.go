@@ -1,8 +1,8 @@
 package encoding
 
 import (
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/protocol"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/protocol"
 )
 
 const (

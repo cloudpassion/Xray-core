@@ -1,9 +1,9 @@
 package conf
 
 import (
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/protocol"
-	"github.com/cloudpassion/xray-core/proxy/hysteria"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/protocol"
+	"github.com/cloudpassion/Xray-core/proxy/hysteria"
 	"google.golang.org/protobuf/proto"
 )
 

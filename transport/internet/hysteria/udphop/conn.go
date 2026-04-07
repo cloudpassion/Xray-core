@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/crypto"
+	"github.com/cloudpassion/Xray-core/common/crypto"
 )
 
 const (

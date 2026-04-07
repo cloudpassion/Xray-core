@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cloudpassion/xray-core/app/router"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/platform"
-	"github.com/cloudpassion/xray-core/common/platform/filesystem"
-	"github.com/cloudpassion/xray-core/common/serial"
+	"github.com/cloudpassion/Xray-core/app/router"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/platform"
+	"github.com/cloudpassion/Xray-core/common/platform/filesystem"
+	"github.com/cloudpassion/Xray-core/common/serial"
 	"google.golang.org/protobuf/proto"
 )
 

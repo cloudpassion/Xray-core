@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/cloudpassion/xray-core/app/policy"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/features/policy"
+	. "github.com/cloudpassion/Xray-core/app/policy"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/features/policy"
 )
 
 func TestPolicy(t *testing.T) {

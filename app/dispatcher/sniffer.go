@@ -3,14 +3,14 @@ package dispatcher
 import (
 	"context"
 
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/protocol"
-	"github.com/cloudpassion/xray-core/common/protocol/bittorrent"
-	"github.com/cloudpassion/xray-core/common/protocol/http"
-	"github.com/cloudpassion/xray-core/common/protocol/quic"
-	"github.com/cloudpassion/xray-core/common/protocol/tls"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/protocol"
+	"github.com/cloudpassion/Xray-core/common/protocol/bittorrent"
+	"github.com/cloudpassion/Xray-core/common/protocol/http"
+	"github.com/cloudpassion/Xray-core/common/protocol/quic"
+	"github.com/cloudpassion/Xray-core/common/protocol/tls"
 )
 
 type SniffResult interface {

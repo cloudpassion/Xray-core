@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/protocol"
-	"github.com/cloudpassion/xray-core/common/serial"
-	"github.com/cloudpassion/xray-core/common/uuid"
-	"github.com/cloudpassion/xray-core/proxy/vmess"
-	"github.com/cloudpassion/xray-core/proxy/vmess/inbound"
-	"github.com/cloudpassion/xray-core/proxy/vmess/outbound"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/protocol"
+	"github.com/cloudpassion/Xray-core/common/serial"
+	"github.com/cloudpassion/Xray-core/common/uuid"
+	"github.com/cloudpassion/Xray-core/proxy/vmess"
+	"github.com/cloudpassion/Xray-core/proxy/vmess/inbound"
+	"github.com/cloudpassion/Xray-core/proxy/vmess/outbound"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -4,7 +4,7 @@ import (
 	"crypto/aes"
 	"crypto/cipher"
 
-	"github.com/cloudpassion/xray-core/common"
+	"github.com/cloudpassion/Xray-core/common"
 )
 
 // NewAesDecryptionStream creates a new AES encryption stream based on given key and IV.

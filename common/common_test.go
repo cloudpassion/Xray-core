@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	. "github.com/cloudpassion/xray-core/common"
+	. "github.com/cloudpassion/Xray-core/common"
 )
 
 func TestMust(t *testing.T) {

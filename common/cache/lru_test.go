@@ -3,7 +3,7 @@ package cache_test
 import (
 	"testing"
 
-	. "github.com/cloudpassion/xray-core/common/cache"
+	. "github.com/cloudpassion/Xray-core/common/cache"
 )
 
 func TestLruReplaceValue(t *testing.T) {

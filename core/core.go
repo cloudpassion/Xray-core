@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/cloudpassion/xray-core/common/serial"
+	"github.com/cloudpassion/Xray-core/common/serial"
 )
 
 var (

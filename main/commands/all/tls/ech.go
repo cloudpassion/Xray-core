@@ -6,9 +6,9 @@ import (
 	"os"
 
 	"github.com/cloudpassion/reality/hpke"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/main/commands/base"
-	"github.com/cloudpassion/xray-core/transport/internet/tls"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/main/commands/base"
+	"github.com/cloudpassion/Xray-core/transport/internet/tls"
 	"golang.org/x/crypto/cryptobyte"
 )
 

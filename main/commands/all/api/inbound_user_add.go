@@ -4,21 +4,21 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cloudpassion/xray-core/common/protocol"
+	"github.com/cloudpassion/Xray-core/common/protocol"
 
-	handlerService "github.com/cloudpassion/xray-core/app/proxyman/command"
-	cserial "github.com/cloudpassion/xray-core/common/serial"
+	handlerService "github.com/cloudpassion/Xray-core/app/proxyman/command"
+	cserial "github.com/cloudpassion/Xray-core/common/serial"
 
-	"github.com/cloudpassion/xray-core/core"
-	"github.com/cloudpassion/xray-core/infra/conf"
-	"github.com/cloudpassion/xray-core/infra/conf/serial"
-	"github.com/cloudpassion/xray-core/proxy/shadowsocks"
-	"github.com/cloudpassion/xray-core/proxy/shadowsocks_2022"
-	"github.com/cloudpassion/xray-core/proxy/trojan"
-	vlessin "github.com/cloudpassion/xray-core/proxy/vless/inbound"
-	vmessin "github.com/cloudpassion/xray-core/proxy/vmess/inbound"
+	"github.com/cloudpassion/Xray-core/core"
+	"github.com/cloudpassion/Xray-core/infra/conf"
+	"github.com/cloudpassion/Xray-core/infra/conf/serial"
+	"github.com/cloudpassion/Xray-core/proxy/shadowsocks"
+	"github.com/cloudpassion/Xray-core/proxy/shadowsocks_2022"
+	"github.com/cloudpassion/Xray-core/proxy/trojan"
+	vlessin "github.com/cloudpassion/Xray-core/proxy/vless/inbound"
+	vmessin "github.com/cloudpassion/Xray-core/proxy/vmess/inbound"
 
-	"github.com/cloudpassion/xray-core/main/commands/base"
+	"github.com/cloudpassion/Xray-core/main/commands/base"
 )
 
 var cmdAddInboundUsers = &base.Command{

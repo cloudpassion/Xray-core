@@ -3,7 +3,7 @@ package json
 import (
 	"io"
 
-	"github.com/cloudpassion/xray-core/common/buf"
+	"github.com/cloudpassion/Xray-core/common/buf"
 )
 
 // State is the internal state of parser.

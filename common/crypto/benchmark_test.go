@@ -4,7 +4,7 @@ import (
 	"crypto/cipher"
 	"testing"
 
-	. "github.com/cloudpassion/xray-core/common/crypto"
+	. "github.com/cloudpassion/Xray-core/common/crypto"
 )
 
 const benchSize = 1024 * 1024

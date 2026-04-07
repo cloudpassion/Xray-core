@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/errors"
 )
 
 type (

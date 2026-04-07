@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/crypto"
-	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/crypto"
+	"github.com/cloudpassion/Xray-core/common/errors"
 	"golang.org/x/net/icmp"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"

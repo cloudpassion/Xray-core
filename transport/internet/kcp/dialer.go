@@ -5,14 +5,14 @@ import (
 	"io"
 	"sync/atomic"
 
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/buf"
-	"github.com/cloudpassion/xray-core/common/dice"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/transport/internet"
-	"github.com/cloudpassion/xray-core/transport/internet/stat"
-	"github.com/cloudpassion/xray-core/transport/internet/tls"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/buf"
+	"github.com/cloudpassion/Xray-core/common/dice"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/transport/internet"
+	"github.com/cloudpassion/Xray-core/transport/internet/stat"
+	"github.com/cloudpassion/Xray-core/transport/internet/tls"
 )
 
 var globalConv = uint32(dice.RollUint16())

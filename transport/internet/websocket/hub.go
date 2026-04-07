@@ -12,12 +12,12 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	http_proto "github.com/cloudpassion/xray-core/common/protocol/http"
-	"github.com/cloudpassion/xray-core/transport/internet"
-	v2tls "github.com/cloudpassion/xray-core/transport/internet/tls"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	http_proto "github.com/cloudpassion/Xray-core/common/protocol/http"
+	"github.com/cloudpassion/Xray-core/transport/internet"
+	v2tls "github.com/cloudpassion/Xray-core/transport/internet/tls"
 )
 
 type requestHandler struct {

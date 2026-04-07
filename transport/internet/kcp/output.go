@@ -4,8 +4,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/cloudpassion/xray-core/common/buf"
-	"github.com/cloudpassion/xray-core/common/retry"
+	"github.com/cloudpassion/Xray-core/common/buf"
+	"github.com/cloudpassion/Xray-core/common/retry"
 )
 
 type SegmentWriter interface {

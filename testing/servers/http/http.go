@@ -3,7 +3,7 @@ package tcp
 import (
 	"net/http"
 
-	"github.com/cloudpassion/xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/net"
 )
 
 type Server struct {

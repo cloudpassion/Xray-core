@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/transport/internet"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/transport/internet"
 )
 
 func init() {

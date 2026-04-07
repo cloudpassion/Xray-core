@@ -4,10 +4,10 @@ import (
 	"context"
 	"io"
 
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/transport/internet/browser_dialer"
-	"github.com/cloudpassion/xray-core/transport/internet/websocket"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/transport/internet/browser_dialer"
+	"github.com/cloudpassion/Xray-core/transport/internet/websocket"
 )
 
 // BrowserDialerClient implements splithttp.DialerClient in terms of browser dialer

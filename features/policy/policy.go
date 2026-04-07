@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/platform"
-	"github.com/cloudpassion/xray-core/features"
+	"github.com/cloudpassion/Xray-core/common/platform"
+	"github.com/cloudpassion/Xray-core/features"
 )
 
 // Timeout contains limits for connection timeout.

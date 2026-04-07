@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/errors"
-	"github.com/cloudpassion/xray-core/common/protocol"
+	"github.com/cloudpassion/Xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/protocol"
 	"lukechampine.com/blake3"
 )
 

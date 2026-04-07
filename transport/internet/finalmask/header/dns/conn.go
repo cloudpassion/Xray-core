@@ -7,8 +7,8 @@ import (
 	sync "sync"
 	"time"
 
-	"github.com/cloudpassion/xray-core/common/dice"
-	"github.com/cloudpassion/xray-core/common/errors"
+	"github.com/cloudpassion/Xray-core/common/dice"
+	"github.com/cloudpassion/Xray-core/common/errors"
 )
 
 func packDomainName(s string, msg []byte) (off1 int, err error) {

@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/cloudpassion/xray-core/common"
-	"github.com/cloudpassion/xray-core/common/net"
-	"github.com/cloudpassion/xray-core/common/uuid"
-	"github.com/cloudpassion/xray-core/features/dns"
+	"github.com/cloudpassion/Xray-core/common"
+	"github.com/cloudpassion/Xray-core/common/net"
+	"github.com/cloudpassion/Xray-core/common/uuid"
+	"github.com/cloudpassion/Xray-core/features/dns"
 	"golang.org/x/sync/errgroup"
 )
 

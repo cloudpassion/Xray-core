@@ -1,7 +1,7 @@
 package convert
 
 import (
-	"github.com/cloudpassion/xray-core/main/commands/base"
+	"github.com/cloudpassion/Xray-core/main/commands/base"
 )
 
 // CmdConvert do config convertion
