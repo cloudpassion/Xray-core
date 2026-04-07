@@ -264,8 +264,8 @@ const file_proxy_trojan_config_proto_rawDesc = "" +
 	"\x06server\x18\x01 \x01(\v2$.xray.common.protocol.ServerEndpointR\x06server\"{\n" +
 	"\fServerConfig\x120\n" +
 	"\x05users\x18\x01 \x03(\v2\x1a.xray.common.protocol.UserR\x05users\x129\n" +
-	"\tfallbacks\x18\x02 \x03(\v2\x1b.xray.proxy.trojan.FallbackR\tfallbacksBU\n" +
-	"\x15com.xray.proxy.trojanP\x01Z&github.com/cloudpassion/xray-core/proxy/trojan\xaa\x02\x11Xray.Proxy.Trojanb\x06proto3"
+	"\tfallbacks\x18\x02 \x03(\v2\x1b.xray.proxy.trojan.FallbackR\tfallbacksB]\n" +
+	"\x15com.xray.proxy.trojanP\x01Z.github.com/cloudpassion/xray-core/proxy/trojan\xaa\x02\x11Xray.Proxy.Trojanb\x06proto3"
 
 var (
 	file_proxy_trojan_config_proto_rawDescOnce sync.Once

@@ -1120,8 +1120,8 @@ const file_app_router_config_proto_rawDesc = "" +
 	"\x04AsIs\x10\x00\x12\x10\n" +
 	"\fIpIfNonMatch\x10\x02\x12\x0e\n" +
 	"\n" +
-	"IpOnDemand\x10\x03BO\n" +
-	"\x13com.xray.app.routerP\x01Z$github.com/cloudpassion/xray-core/app/router\xaa\x02\x0fXray.App.Routerb\x06proto3"
+	"IpOnDemand\x10\x03BW\n" +
+	"\x13com.xray.app.routerP\x01Z,github.com/cloudpassion/xray-core/app/router\xaa\x02\x0fXray.App.Routerb\x06proto3"
 
 var (
 	file_app_router_config_proto_rawDescOnce sync.Once

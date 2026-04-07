@@ -416,8 +416,8 @@ const file_transport_internet_tls_config_proto_rawDesc = "" +
 	"\x0fech_config_list\x18\x13 \x01(\tR\rechConfigList\x12&\n" +
 	"\x0fech_force_query\x18\x14 \x01(\tR\rechForceQuery\x12U\n" +
 	"\x13ech_socket_settings\x18\x15 \x01(\v2%.xray.transport.internet.SocketConfigR\x11echSocketSettings\x125\n" +
-	"\x17pinned_peer_cert_sha256\x18\x16 \x03(\fR\x14pinnedPeerCertSha256Bs\n" +
-	"\x1fcom.xray.transport.internet.tlsP\x01Z0github.com/cloudpassion/xray-core/transport/internet/tls\xaa\x02\x1bXray.Transport.Internet.Tlsb\x06proto3"
+	"\x17pinned_peer_cert_sha256\x18\x16 \x03(\fR\x14pinnedPeerCertSha256B{\n" +
+	"\x1fcom.xray.transport.internet.tlsP\x01Z8github.com/cloudpassion/xray-core/transport/internet/tls\xaa\x02\x1bXray.Transport.Internet.Tlsb\x06proto3"
 
 var (
 	file_transport_internet_tls_config_proto_rawDescOnce sync.Once

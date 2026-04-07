@@ -220,8 +220,8 @@ const file_proxy_vless_inbound_config_proto_rawDesc = "" +
 	"\fseconds_from\x18\x05 \x01(\x03R\vsecondsFrom\x12\x1d\n" +
 	"\n" +
 	"seconds_to\x18\x06 \x01(\x03R\tsecondsTo\x12\x18\n" +
-	"\apadding\x18\a \x01(\tR\apaddingBj\n" +
-	"\x1ccom.xray.proxy.vless.inboundP\x01Z-github.com/cloudpassion/xray-core/proxy/vless/inbound\xaa\x02\x18Xray.Proxy.Vless.Inboundb\x06proto3"
+	"\apadding\x18\a \x01(\tR\apaddingBr\n" +
+	"\x1ccom.xray.proxy.vless.inboundP\x01Z5github.com/cloudpassion/xray-core/proxy/vless/inbound\xaa\x02\x18Xray.Proxy.Vless.Inboundb\x06proto3"
 
 var (
 	file_proxy_vless_inbound_config_proto_rawDescOnce sync.Once

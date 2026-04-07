@@ -72,8 +72,8 @@ const file_proxy_vmess_outbound_config_proto_rawDesc = "" +
 	"\n" +
 	"!proxy/vmess/outbound/config.proto\x12\x19xray.proxy.vmess.outbound\x1a!common/protocol/server_spec.proto\"J\n" +
 	"\x06Config\x12@\n" +
-	"\bReceiver\x18\x01 \x01(\v2$.xray.common.protocol.ServerEndpointR\bReceiverBm\n" +
-	"\x1dcom.xray.proxy.vmess.outboundP\x01Z.github.com/cloudpassion/xray-core/proxy/vmess/outbound\xaa\x02\x19Xray.Proxy.Vmess.Outboundb\x06proto3"
+	"\bReceiver\x18\x01 \x01(\v2$.xray.common.protocol.ServerEndpointR\bReceiverBu\n" +
+	"\x1dcom.xray.proxy.vmess.outboundP\x01Z6github.com/cloudpassion/xray-core/proxy/vmess/outbound\xaa\x02\x19Xray.Proxy.Vmess.Outboundb\x06proto3"
 
 var (
 	file_proxy_vmess_outbound_config_proto_rawDescOnce sync.Once

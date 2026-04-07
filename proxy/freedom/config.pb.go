@@ -370,8 +370,8 @@ const file_proxy_freedom_config_proto_rawDesc = "" +
 	"user_level\x18\x04 \x01(\rR\tuserLevel\x128\n" +
 	"\bfragment\x18\x05 \x01(\v2\x1c.xray.proxy.freedom.FragmentR\bfragment\x12%\n" +
 	"\x0eproxy_protocol\x18\x06 \x01(\rR\rproxyProtocol\x121\n" +
-	"\x06noises\x18\a \x03(\v2\x19.xray.proxy.freedom.NoiseR\x06noisesBX\n" +
-	"\x16com.xray.proxy.freedomP\x01Z'github.com/cloudpassion/xray-core/proxy/freedom\xaa\x02\x12Xray.Proxy.Freedomb\x06proto3"
+	"\x06noises\x18\a \x03(\v2\x19.xray.proxy.freedom.NoiseR\x06noisesB`\n" +
+	"\x16com.xray.proxy.freedomP\x01Z/github.com/cloudpassion/xray-core/proxy/freedom\xaa\x02\x12Xray.Proxy.Freedomb\x06proto3"
 
 var (
 	file_proxy_freedom_config_proto_rawDescOnce sync.Once

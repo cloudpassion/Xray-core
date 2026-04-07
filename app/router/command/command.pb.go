@@ -1041,8 +1041,8 @@ const file_app_router_command_command_proto_rawDesc = "" +
 	"\aAddRule\x12'.xray.app.router.command.AddRuleRequest\x1a(.xray.app.router.command.AddRuleResponse\"\x00\x12g\n" +
 	"\n" +
 	"RemoveRule\x12*.xray.app.router.command.RemoveRuleRequest\x1a+.xray.app.router.command.RemoveRuleResponse\"\x00\x12a\n" +
-	"\bListRule\x12(.xray.app.router.command.ListRuleRequest\x1a).xray.app.router.command.ListRuleResponse\"\x00Bg\n" +
-	"\x1bcom.xray.app.router.commandP\x01Z,github.com/cloudpassion/xray-core/app/router/command\xaa\x02\x17Xray.App.Router.Commandb\x06proto3"
+	"\bListRule\x12(.xray.app.router.command.ListRuleRequest\x1a).xray.app.router.command.ListRuleResponse\"\x00Bo\n" +
+	"\x1bcom.xray.app.router.commandP\x01Z4github.com/cloudpassion/xray-core/app/router/command\xaa\x02\x17Xray.App.Router.Commandb\x06proto3"
 
 var (
 	file_app_router_command_command_proto_rawDescOnce sync.Once

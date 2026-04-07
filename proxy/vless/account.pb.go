@@ -69,7 +69,7 @@ type Account struct {
 	state protoimpl.MessageState `protogen:"open.v1"`
 	// ID of the account, in the form of a UUID, e.g., "66ad4540-b58c-4ad2-9926-ea63445a9b57".
 	Id string `protobuf:"bytes,1,opt,name=id,proto3" json:"id,omitempty"`
-	// Flow settings. May be "cloudpassion-rprx-vision".
+	// Flow settings. May be "xtls-rprx-vision".
 	Flow          string   `protobuf:"bytes,2,opt,name=flow,proto3" json:"flow,omitempty"`
 	Encryption    string   `protobuf:"bytes,3,opt,name=encryption,proto3" json:"encryption,omitempty"`
 	XorMode       uint32   `protobuf:"varint,4,opt,name=xorMode,proto3" json:"xorMode,omitempty"`
@@ -193,8 +193,8 @@ const file_proxy_vless_account_proto_rawDesc = "" +
 	"\apadding\x18\x06 \x01(\tR\apadding\x123\n" +
 	"\areverse\x18\a \x01(\v2\x19.xray.proxy.vless.ReverseR\areverse\x12\x18\n" +
 	"\atestpre\x18\b \x01(\rR\atestpre\x12\x1a\n" +
-	"\btestseed\x18\t \x03(\rR\btestseedBR\n" +
-	"\x14com.xray.proxy.vlessP\x01Z%github.com/cloudpassion/xray-core/proxy/vless\xaa\x02\x10Xray.Proxy.Vlessb\x06proto3"
+	"\btestseed\x18\t \x03(\rR\btestseedBZ\n" +
+	"\x14com.xray.proxy.vlessP\x01Z-github.com/cloudpassion/xray-core/proxy/vless\xaa\x02\x10Xray.Proxy.Vlessb\x06proto3"
 
 var (
 	file_proxy_vless_account_proto_rawDescOnce sync.Once

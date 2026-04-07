@@ -91,8 +91,8 @@ const file_app_version_config_proto_rawDesc = "" +
 	"\vmin_version\x18\x02 \x01(\tR\n" +
 	"minVersion\x12\x1f\n" +
 	"\vmax_version\x18\x03 \x01(\tR\n" +
-	"maxVersionBR\n" +
-	"\x14com.xray.app.versionP\x01Z%github.com/cloudpassion/xray-core/app/version\xaa\x02\x10Xray.App.Versionb\x06proto3"
+	"maxVersionBZ\n" +
+	"\x14com.xray.app.versionP\x01Z-github.com/cloudpassion/xray-core/app/version\xaa\x02\x10Xray.App.Versionb\x06proto3"
 
 var (
 	file_app_version_config_proto_rawDescOnce sync.Once

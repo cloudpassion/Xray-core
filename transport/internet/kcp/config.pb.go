@@ -527,8 +527,8 @@ const file_transport_internet_kcp_config_proto_rawDesc = "" +
 	"\rheader_config\x18\b \x01(\v2 .xray.common.serial.TypedMessageR\fheaderConfig\x12?\n" +
 	"\x04seed\x18\n" +
 	" \x01(\v2+.xray.transport.internet.kcp.EncryptionSeedR\x04seedJ\x04\b\t\x10\n" +
-	"Bs\n" +
-	"\x1fcom.xray.transport.internet.kcpP\x01Z0github.com/cloudpassion/xray-core/transport/internet/kcp\xaa\x02\x1bXray.Transport.Internet.Kcpb\x06proto3"
+	"B{\n" +
+	"\x1fcom.xray.transport.internet.kcpP\x01Z8github.com/cloudpassion/xray-core/transport/internet/kcp\xaa\x02\x1bXray.Transport.Internet.Kcpb\x06proto3"
 
 var (
 	file_transport_internet_kcp_config_proto_rawDescOnce sync.Once

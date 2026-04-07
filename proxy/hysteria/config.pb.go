@@ -81,8 +81,8 @@ const file_proxy_hysteria_config_proto_rawDesc = "" +
 	"\x1bproxy/hysteria/config.proto\x12\x13xray.proxy.hysteria\x1a!common/protocol/server_spec.proto\"f\n" +
 	"\fClientConfig\x12\x18\n" +
 	"\aversion\x18\x01 \x01(\x05R\aversion\x12<\n" +
-	"\x06server\x18\x02 \x01(\v2$.xray.common.protocol.ServerEndpointR\x06serverB[\n" +
-	"\x17com.xray.proxy.hysteriaP\x01Z(github.com/cloudpassion/xray-core/proxy/hysteria\xaa\x02\x13Xray.Proxy.Hysteriab\x06proto3"
+	"\x06server\x18\x02 \x01(\v2$.xray.common.protocol.ServerEndpointR\x06serverBc\n" +
+	"\x17com.xray.proxy.hysteriaP\x01Z0github.com/cloudpassion/xray-core/proxy/hysteria\xaa\x02\x13Xray.Proxy.Hysteriab\x06proto3"
 
 var (
 	file_proxy_hysteria_config_proto_rawDescOnce sync.Once

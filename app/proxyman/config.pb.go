@@ -508,8 +508,8 @@ const file_app_proxyman_config_proto_rawDesc = "" +
 	"\aenabled\x18\x01 \x01(\bR\aenabled\x12 \n" +
 	"\vconcurrency\x18\x02 \x01(\x05R\vconcurrency\x12(\n" +
 	"\x0fxudpConcurrency\x18\x03 \x01(\x05R\x0fxudpConcurrency\x12(\n" +
-	"\x0fxudpProxyUDP443\x18\x04 \x01(\tR\x0fxudpProxyUDP443BU\n" +
-	"\x15com.xray.app.proxymanP\x01Z&github.com/cloudpassion/xray-core/app/proxyman\xaa\x02\x11Xray.App.Proxymanb\x06proto3"
+	"\x0fxudpProxyUDP443\x18\x04 \x01(\tR\x0fxudpProxyUDP443B]\n" +
+	"\x15com.xray.app.proxymanP\x01Z.github.com/cloudpassion/xray-core/app/proxyman\xaa\x02\x11Xray.App.Proxymanb\x06proto3"
 
 var (
 	file_app_proxyman_config_proto_rawDescOnce sync.Once
