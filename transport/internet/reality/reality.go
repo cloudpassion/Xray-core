@@ -49,8 +49,8 @@ func (c *Conn) HandshakeAddress() net.Address {
 	return net.ParseAddress(state.ServerName)
 }
 
-func Server(c net.Conn, config *reality.Config) (net.Conn, error) {
-	realityConn, err := reality.Server(context.Background(), c, config)
+func Server(ctx context.Context, c net.Conn, config *reality.Config) (net.Conn, error) {
+	realityConn, err := reality.Server(ctx, c, config)
 	return &Conn{Conn: realityConn}, err
 }
 
@@ -74,6 +74,9 @@ func (c *UConn) HandshakeAddress() net.Address {
 }
 
 func (c *UConn) VerifyPeerCertificate(rawCerts [][]byte, verifiedChains [][]*x509.Certificate) error {
+	
+	fmt.Printf("REALITY_check1\n")
+	
 	if c.Config.Show {
 		localAddr := c.LocalAddr().String()
 		fmt.Printf("REALITY localAddr: %v\tis using X25519MLKEM768 for TLS' communication: %v\n", localAddr, c.HandshakeState.ServerHello.ServerShare.Group == utls.X25519MLKEM768)

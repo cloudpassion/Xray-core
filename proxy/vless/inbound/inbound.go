@@ -305,6 +305,9 @@ func (h *Handler) Process(ctx context.Context, network net.Network, connection s
 	} else {
 		userSentID, request, requestAddons, isfb, err = encoding.DecodeRequestHeader(isfb, first, reader, h.validator)
 	}
+	
+	//fmt.Printf("u_userSentID %s\n", string(userSentID[:]))
+	ctx = context.WithValue(ctx, "acc_id", "u_userSentID")
 
 	if err != nil {
 		if isfb {
@@ -534,6 +537,9 @@ func (h *Handler) Process(ctx context.Context, network net.Network, connection s
 	inbound.VlessRoute = net.PortFromBytes(userSentID[6:8])
 
 	account := request.User.Account.(*vless.MemoryAccount)
+		
+	//fmt.Printf("u_accountID %s\n", account.ID.String())
+	ctx = context.WithValue(ctx, "acc_id", "u_accountID")
 
 	if account.Reverse != nil && request.Command != protocol.RequestCommandRvs {
 		return errors.New("for safety reasons, user " + account.ID.String() + " is not allowed to use forward proxy")
@@ -592,8 +598,6 @@ func (h *Handler) Process(ctx context.Context, network net.Network, connection s
 	default:
 		return errors.New("unknown request flow " + requestAddons.Flow).AtWarning()
 	}
-
-	//ctx = context.WithValue(ctx, "acc_id", "test") //account.ID.String())
 	
 	if request.Command != protocol.RequestCommandMux {
 		ctx = log.ContextWithAccessMessage(ctx, &log.AccessMessage{

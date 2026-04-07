@@ -109,10 +109,11 @@ func (v *Listener) keepAccepting() {
 			continue
 		}
 		go func() {
+			//ctx := context.WithValue(context.Background(), "acc_id", "test") //account.ID.String())
 			if v.tlsConfig != nil {
 				conn = tls.Server(conn, v.tlsConfig)
 			} else if v.realityConfig != nil {
-				if conn, err = reality.Server(conn, v.realityConfig); err != nil {
+				if conn, err = reality.Server(context.Background(), conn, v.realityConfig); err != nil {
 					errors.LogInfo(context.Background(), err.Error())
 					return
 				}
