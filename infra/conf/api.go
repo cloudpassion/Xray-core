@@ -29,8 +29,8 @@ func (c *APIConfig) Build() (*commander.Config, error) {
 		switch strings.ToLower(s) {
 		case "reflectionservice":
 			services = append(services, serial.ToTypedMessage(&commander.ReflectionConfig{}))
-		case "handlerservice":
-			services = append(services, serial.ToTypedMessage(&handlerservice.Config{}))
+//		case "handlerservice":
+//			services = append(services, serial.ToTypedMessage(&handlerservice.Config{}))
 		case "loggerservice":
 			services = append(services, serial.ToTypedMessage(&loggerservice.Config{}))
 		case "statsservice":
