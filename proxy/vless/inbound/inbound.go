@@ -307,14 +307,14 @@ func (h *Handler) Process(ctx context.Context, network net.Network, connection s
 		userSentID, request, requestAddons, isfb, err = encoding.DecodeRequestHeader(isfb, first, reader, h.validator)
 	}
 	
-	fmt.Printf("u_userSentID %s\n", string(userSentID[:]))
-	ctx = context.WithValue(ctx, "acc_id", "u_userSentID")
+	//fmt.Printf("u_userSentID %s\n", string(userSentID[:]))
+	//ctx = context.WithValue(ctx, "acc_id", "u_userSentID")
 	
-	remote_ver := fmt.Sprint(ctx.Value("remote_ver"))
-	remote_ip := fmt.Sprint(ctx.Value("remote_ip"))
+	//remote_ver := fmt.Sprint(ctx.Value("remote_ver"))
+	//remote_ip := fmt.Sprint(ctx.Value("remote_ip"))
 
-	fmt.Printf("u_remote_ver %s\n", remote_ver)
-	fmt.Printf("u_remote_ip %s\n", remote_ip)
+	//fmt.Printf("u_remote_ver %s\n", remote_ver)
+	//fmt.Printf("u_remote_ip %s\n", remote_ip)
 
 	if err != nil {
 		if isfb {
@@ -545,8 +545,8 @@ func (h *Handler) Process(ctx context.Context, network net.Network, connection s
 
 	account := request.User.Account.(*vless.MemoryAccount)
 		
-	fmt.Printf("u_accountID %s\n", account.ID.String())
-	ctx = context.WithValue(ctx, "acc_id", "u_accountID")
+	//fmt.Printf("u_accountID %s\n", account.ID.String())
+	//ctx = context.WithValue(ctx, "acc_id", "u_accountID")
 
 	if account.Reverse != nil && request.Command != protocol.RequestCommandRvs {
 		return errors.New("for safety reasons, user " + account.ID.String() + " is not allowed to use forward proxy")
