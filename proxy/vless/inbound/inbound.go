@@ -1,6 +1,7 @@
 package inbound
 
 import (
+	"fmt"
 	"bytes"
 	"context"
 	gotls "crypto/tls"
@@ -306,7 +307,7 @@ func (h *Handler) Process(ctx context.Context, network net.Network, connection s
 		userSentID, request, requestAddons, isfb, err = encoding.DecodeRequestHeader(isfb, first, reader, h.validator)
 	}
 	
-	//fmt.Printf("u_userSentID %s\n", string(userSentID[:]))
+	fmt.Printf("u_userSentID %s\n", string(userSentID[:]))
 	ctx = context.WithValue(ctx, "acc_id", "u_userSentID")
 
 	if err != nil {
@@ -538,7 +539,7 @@ func (h *Handler) Process(ctx context.Context, network net.Network, connection s
 
 	account := request.User.Account.(*vless.MemoryAccount)
 		
-	//fmt.Printf("u_accountID %s\n", account.ID.String())
+	fmt.Printf("u_accountID %s\n", account.ID.String())
 	ctx = context.WithValue(ctx, "acc_id", "u_accountID")
 
 	if account.Reverse != nil && request.Command != protocol.RequestCommandRvs {
