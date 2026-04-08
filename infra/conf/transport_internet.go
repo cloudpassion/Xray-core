@@ -832,7 +832,6 @@ type REALITYConfig struct {
 	MaxClientVer string          `json:"maxClientVer"`
 	MaxTimeDiff  uint64          `json:"maxTimeDiff"`
 	ShortIds     []string        `json:"shortIds"`
-	UUIDs		 []string		 `json:"uuids"`
 	Mldsa65Seed  string          `json:"mldsa65Seed"`
 
 	LimitFallbackUpload   LimitFallback `json:"limitFallbackUpload"`
