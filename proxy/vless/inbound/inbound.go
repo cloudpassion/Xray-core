@@ -309,6 +309,12 @@ func (h *Handler) Process(ctx context.Context, network net.Network, connection s
 	
 	fmt.Printf("u_userSentID %s\n", string(userSentID[:]))
 	ctx = context.WithValue(ctx, "acc_id", "u_userSentID")
+	
+	remote_ver := fmt.Sprint(ctx.Value("remote_ver"))
+	remote_ip := fmt.Sprint(ctx.Value("remote_ip"))
+
+	fmt.Printf("u_remote_ver %s\n", remote_ver)
+	fmt.Printf("u_remote_ip %s\n", remote_ip)
 
 	if err != nil {
 		if isfb {
