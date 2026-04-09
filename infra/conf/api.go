@@ -6,7 +6,7 @@ import (
 	"github.com/cloudpassion/xray-core/app/commander"
 	loggerservice "github.com/cloudpassion/xray-core/app/log/command"
 	observatoryservice "github.com/cloudpassion/xray-core/app/observatory/command"
-	handlerservice "github.com/cloudpassion/xray-core/app/proxyman/command"
+//	handlerservice "github.com/cloudpassion/xray-core/app/proxyman/command"
 	routerservice "github.com/cloudpassion/xray-core/app/router/command"
 	statsservice "github.com/cloudpassion/xray-core/app/stats/command"
 	"github.com/cloudpassion/xray-core/common/errors"
@@ -29,8 +29,8 @@ func (c *APIConfig) Build() (*commander.Config, error) {
 		switch strings.ToLower(s) {
 		case "reflectionservice":
 			services = append(services, serial.ToTypedMessage(&commander.ReflectionConfig{}))
-		case "handlerservice":
-			services = append(services, serial.ToTypedMessage(&handlerservice.Config{}))
+//		case "handlerservice":
+//			services = append(services, serial.ToTypedMessage(&handlerservice.Config{}))
 		case "loggerservice":
 			services = append(services, serial.ToTypedMessage(&loggerservice.Config{}))
 		case "statsservice":
